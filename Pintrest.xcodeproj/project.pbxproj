@@ -3,19 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1FCF07278F14A800D8D2D9 /* RandomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1FCF06278F14A800D8D2D9 /* RandomCollectionViewCell.swift */; };
+		CE1FCF09278F22AD00D8D2D9 /* PhotoModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1FCF08278F22AD00D8D2D9 /* PhotoModelData.swift */; };
+		CE1FCF0E278F351600D8D2D9 /* Wishlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1FCF0D278F351600D8D2D9 /* Wishlist.swift */; };
+		CE1FCF10278FD8C700D8D2D9 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1FCF0F278FD8C700D8D2D9 /* DetailsViewController.swift */; };
+		CE1FCF12278FFF1600D8D2D9 /* WishlistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1FCF11278FFF1600D8D2D9 /* WishlistTableViewCell.swift */; };
 		CE2C77F7278F0A260073050E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C77F6278F0A260073050E /* AppDelegate.swift */; };
 		CE2C77F9278F0A260073050E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C77F8278F0A260073050E /* SceneDelegate.swift */; };
 		CE2C77FB278F0A260073050E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C77FA278F0A260073050E /* ViewController.swift */; };
 		CE2C77FE278F0A260073050E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2C77FC278F0A260073050E /* Main.storyboard */; };
 		CE2C7800278F0A280073050E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2C77FF278F0A280073050E /* Assets.xcassets */; };
 		CE2C7803278F0A280073050E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2C7801278F0A280073050E /* LaunchScreen.storyboard */; };
+		CE2C780C278F0A720073050E /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C780B278F0A720073050E /* RandomViewController.swift */; };
+		CE2C780E278F0A8F0073050E /* WishlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C780D278F0A8F0073050E /* WishlistViewController.swift */; };
+		CEB46D7427903F0600E57399 /* SearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB46D7327903F0600E57399 /* SearchCollectionViewCell.swift */; };
+		CEB46D762790540600E57399 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB46D752790540600E57399 /* SearchResultViewController.swift */; };
+		CEB46D7827913E8D00E57399 /* functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB46D7727913E8D00E57399 /* functions.swift */; };
+		FCAC051BB5964020F45010E2 /* Pods_Pintrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4F5C8459991ED88CCB3F90 /* Pods_Pintrest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D35B38ACF71463D40D16537 /* Pods-Pintrest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pintrest.release.xcconfig"; path = "Target Support Files/Pods-Pintrest/Pods-Pintrest.release.xcconfig"; sourceTree = "<group>"; };
+		BE46B967C6F8E9C72FA228A6 /* Pods-Pintrest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pintrest.debug.xcconfig"; path = "Target Support Files/Pods-Pintrest/Pods-Pintrest.debug.xcconfig"; sourceTree = "<group>"; };
+		CE1FCF06278F14A800D8D2D9 /* RandomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE1FCF08278F22AD00D8D2D9 /* PhotoModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelData.swift; sourceTree = "<group>"; };
+		CE1FCF0D278F351600D8D2D9 /* Wishlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wishlist.swift; sourceTree = "<group>"; };
+		CE1FCF0F278FD8C700D8D2D9 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		CE1FCF11278FFF1600D8D2D9 /* WishlistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistTableViewCell.swift; sourceTree = "<group>"; };
 		CE2C77F3278F0A260073050E /* Pintrest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pintrest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2C77F6278F0A260073050E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE2C77F8278F0A260073050E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +42,12 @@
 		CE2C77FF278F0A280073050E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE2C7802278F0A280073050E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE2C7804278F0A280073050E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2C780B278F0A720073050E /* RandomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomViewController.swift; sourceTree = "<group>"; };
+		CE2C780D278F0A8F0073050E /* WishlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistViewController.swift; sourceTree = "<group>"; };
+		CEB46D7327903F0600E57399 /* SearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		CEB46D752790540600E57399 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		CEB46D7727913E8D00E57399 /* functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = functions.swift; sourceTree = "<group>"; };
+		DD4F5C8459991ED88CCB3F90 /* Pods_Pintrest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pintrest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCAC051BB5964020F45010E2 /* Pods_Pintrest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6EC371FC2DA68A2BE0B98DAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE46B967C6F8E9C72FA228A6 /* Pods-Pintrest.debug.xcconfig */,
+				0D35B38ACF71463D40D16537 /* Pods-Pintrest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE1FCF02278F0FC500D8D2D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE2C77FA278F0A260073050E /* ViewController.swift */,
+				CE2C780B278F0A720073050E /* RandomViewController.swift */,
+				CE2C780D278F0A8F0073050E /* WishlistViewController.swift */,
+				CEB46D752790540600E57399 /* SearchResultViewController.swift */,
+				CE1FCF0F278FD8C700D8D2D9 /* DetailsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE1FCF05278F131C00D8D2D9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CE1FCF06278F14A800D8D2D9 /* RandomCollectionViewCell.swift */,
+				CE1FCF11278FFF1600D8D2D9 /* WishlistTableViewCell.swift */,
+				CEB46D7327903F0600E57399 /* SearchCollectionViewCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CE1FCF0A278F34DF00D8D2D9 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CE1FCF0D278F351600D8D2D9 /* Wishlist.swift */,
+				CEB46D7727913E8D00E57399 /* functions.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		CE2C77EA278F0A260073050E = {
 			isa = PBXGroup;
 			children = (
 				CE2C77F5278F0A260073050E /* Pintrest */,
 				CE2C77F4278F0A260073050E /* Products */,
+				6EC371FC2DA68A2BE0B98DAA /* Pods */,
+				F93C4EA9D9F1B82074A653FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +123,34 @@
 		CE2C77F5278F0A260073050E /* Pintrest */ = {
 			isa = PBXGroup;
 			children = (
+				CE1FCF0A278F34DF00D8D2D9 /* Manager */,
+				CE2C780A278F0A2F0073050E /* Model */,
+				CE1FCF02278F0FC500D8D2D9 /* View */,
+				CE1FCF05278F131C00D8D2D9 /* Components */,
 				CE2C77F6278F0A260073050E /* AppDelegate.swift */,
 				CE2C77F8278F0A260073050E /* SceneDelegate.swift */,
-				CE2C77FA278F0A260073050E /* ViewController.swift */,
 				CE2C77FC278F0A260073050E /* Main.storyboard */,
 				CE2C77FF278F0A280073050E /* Assets.xcassets */,
 				CE2C7801278F0A280073050E /* LaunchScreen.storyboard */,
 				CE2C7804278F0A280073050E /* Info.plist */,
 			);
 			path = Pintrest;
+			sourceTree = "<group>";
+		};
+		CE2C780A278F0A2F0073050E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE1FCF08278F22AD00D8D2D9 /* PhotoModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F93C4EA9D9F1B82074A653FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD4F5C8459991ED88CCB3F90 /* Pods_Pintrest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE2C7807278F0A280073050E /* Build configuration list for PBXNativeTarget "Pintrest" */;
 			buildPhases = (
+				C60C97C7DFECD44F7DD27D06 /* [CP] Check Pods Manifest.lock */,
 				CE2C77EF278F0A260073050E /* Sources */,
 				CE2C77F0278F0A260073050E /* Frameworks */,
 				CE2C77F1278F0A260073050E /* Resources */,
+				1EACF3CC5EF9B86D6D18205F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +220,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1EACF3CC5EF9B86D6D18205F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pintrest/Pods-Pintrest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pintrest/Pods-Pintrest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pintrest/Pods-Pintrest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C60C97C7DFECD44F7DD27D06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pintrest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE2C77EF278F0A260073050E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CE2C77FB278F0A260073050E /* ViewController.swift in Sources */,
+				CE1FCF07278F14A800D8D2D9 /* RandomCollectionViewCell.swift in Sources */,
+				CEB46D7427903F0600E57399 /* SearchCollectionViewCell.swift in Sources */,
+				CE2C780C278F0A720073050E /* RandomViewController.swift in Sources */,
+				CEB46D7827913E8D00E57399 /* functions.swift in Sources */,
+				CE2C780E278F0A8F0073050E /* WishlistViewController.swift in Sources */,
+				CE1FCF09278F22AD00D8D2D9 /* PhotoModelData.swift in Sources */,
 				CE2C77F7278F0A260073050E /* AppDelegate.swift in Sources */,
 				CE2C77F9278F0A260073050E /* SceneDelegate.swift in Sources */,
+				CE1FCF12278FFF1600D8D2D9 /* WishlistTableViewCell.swift in Sources */,
+				CE1FCF0E278F351600D8D2D9 /* Wishlist.swift in Sources */,
+				CEB46D762790540600E57399 /* SearchResultViewController.swift in Sources */,
+				CE1FCF10278FD8C700D8D2D9 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +423,7 @@
 		};
 		CE2C7808278F0A280073050E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE46B967C6F8E9C72FA228A6 /* Pods-Pintrest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +442,7 @@
 		};
 		CE2C7809278F0A280073050E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D35B38ACF71463D40D16537 /* Pods-Pintrest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
