@@ -1,0 +1,6 @@
+framework module Pods_Pintrest {
+  umbrella header "Pods-Pintrest-umbrella.h"
+
+  export *
+  module * { export * }
+}
